@@ -1,0 +1,41 @@
+nav{
+    position: fixed;
+    top: 0;
+    background: #fff;
+    width: 100%;
+}
+.nav{
+    font-size: 30px;
+    border-bottom: 1px solid #f5f5fa;   
+}
+.nav li{
+    line-height: 90px;       
+}
+.imgicon{
+    width:120px;
+    height: 170px;
+    border-radius: 10px;
+}
+.describe{
+    font-size: 25px;
+    margin-left:10px; 
+}
+.book-wrap{
+    display: flex;
+    justify-content:space-between;
+    padding: 20px 10px 20px 10px ;
+    border-bottom: 1px solid #f5f5fa;
+   
+}
+.describe p:nth-child(1){
+    font-size: 30px;
+    color: #303030;
+}
+.describe p:nth-child(2){
+    font-size: 24px;
+    color: #999;
+    margin-top: 40px
+}
+.book-item{
+    margin-top: 90px;
+}
